@@ -3,6 +3,10 @@
 
  The code provides insights into integrating external APIs, image manipulation, and video creation using Python libraries like requests and OpenCV.
 
+Information:
+
+1. API service used here is APINinjas Dad jokes API
+
 Explanation:
 
 1. The code starts by importing necessary libraries such as cv2 for OpenCV image and video processing, os for operating system functions, random for random    selection, textwrap for text formatting, and requests for making HTTP requests.
