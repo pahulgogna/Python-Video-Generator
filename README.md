@@ -1,13 +1,12 @@
-# Python-Video-Generator
- Creates a maximum of 10 videos at a time containing dad jokes in the format of YouTube shorts or Instagram reels.
+
+#  Python-Video-Generator
+
+Creates a maximum of 10 videos at a time containing dad jokes in the format of YouTube shorts or Instagram reels.
 
  The code provides insights into integrating external APIs, image manipulation, and video creation using Python libraries like requests and OpenCV.
 
-Information:
 
-1. The API service used here is APINinjas Dad jokes API
-
-Explanation:
+## Working
 
 1. The code starts by importing necessary libraries such as cv2 for OpenCV image and video processing, os for operating system functions, random for random    selection, textwrap for text formatting, and requests for making HTTP requests.
 
@@ -29,17 +28,13 @@ Explanation:
 
    - Select a random background image path.
    - Initializes a VideoWriter object to write the video.
-   - Write the same image with text into the video multiple times for each frame, creating the illusion of a longer video.
-   - The code employs OpenCV's cv2 functions for tasks like reading images, overlaying text, and writing video frames. This 
-     showcases the capabilities of OpenCV in image and video manipulation.
+   - Write the same image with text into the video multiple  times for each frame, creating the illusion of a longer video.
+   - The code employs OpenCV's cv2 functions for tasks like reading images, overlaying text, and writing video frames. This showcases the capabilities of OpenCV in image and video manipulation.
 
 10. Finally, the image_to_video function generates the videos based on the provided parameters.
-
-#######################################################################################################
+#
 
 It is important to ensure that the background images have the same dimensions as specified in the code (1080x1920), otherwise, the output videos will be corrupted. 
 
 Remember to replace placeholders like 'YOUR API KEY' and adjust file paths to match your own environment. 
 
-
-NOT FOR COMMERCIAL USE
